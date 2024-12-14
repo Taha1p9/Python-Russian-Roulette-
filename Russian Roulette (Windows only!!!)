@@ -4,7 +4,7 @@ low = 1
 high = 10
 print("welcome to the Russian roulette")
 print()
-guess = ("choose a number: ")
+guess = int(input("choose a number: "))
 
 ai_guess = random.randint(low,high)
 if guess == ai_guess:
